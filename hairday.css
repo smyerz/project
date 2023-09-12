@@ -1,0 +1,63 @@
+body{
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.subareas a.link{
+    color: black;
+}
+
+.subareas a.link:hover{
+    color: green;
+    
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: white;
+    
+}
+
+nav li{
+    display: inline-flex;
+
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+
+img{
+    width:  100%; height: auto;
+}
+
+#box1{
+    min-width: 0;
+    background-color: black;
+}
+
+

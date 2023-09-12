@@ -1,0 +1,128 @@
+
+header img{
+    min-width: 1;
+    max-width: 700px;
+}
+
+body{
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.subareas a.link{
+    color: black;
+}
+
+.subareas a.link:hover{
+    color: green;
+    
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+
+nav li{
+    display: inline-flex;
+    padding: 5px;
+}
+
+article{
+    flex: 1;
+}
+
+article img{
+    background-color: black;
+}
+
+article h5{
+    text-align: center;
+}
+
+img{
+    width:  100%; height: auto;
+}
+
+#container ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+ul img{
+    min-width: 0;
+    max-width: 500px;
+}
+
+ul img:hover{
+    width: 400px;
+}
+
+ul h3{
+    text-align: center;
+}
+
+ul h4{
+    display: table-cell;
+    text-align: left;
+    background-color: white;
+}
+
+article h5::first-letter{
+    font-size: x-large;
+    color: rgb(175, 89, 39);
+}
+
+ul h3::first-letter{
+    font-size: x-large;
+    color: rgb(175, 89, 39);
+}
+
+.box{
+    text-align: left;
+    display: table;
+    min-width: 0;
+    max-width: 500px;
+    border: solid 2px black;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    transition: 0.2s ease;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+}
+
+footer{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    min-width: 0;
+    max-width: 700px;
+    background-color: black;
+}
+
+
