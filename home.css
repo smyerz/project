@@ -5,7 +5,7 @@ header img{
 }
 
 body{
-    background-color: bisque;
+    background-color: #D890B0;
     font-family: 'Franklin Gothic Medium';
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -34,7 +34,7 @@ header > img{
 }
 
 .subareas a.link:hover{
-    color: green;
+    color: #CA3368;
     
 }
 
@@ -43,6 +43,7 @@ nav ul{
     text-align: center;
     background-color: white;
     padding: 5px;
+    border-radius: 20px;
 }
 
 nav li{
@@ -69,6 +70,7 @@ img{
 #container ul{
     list-style: none;
     display: inline-flex;
+    border-radius: 20px;
 }
 
 ul img{
@@ -92,12 +94,13 @@ ul h4{
 
 article h5::first-letter{
     font-size: x-large;
-    color: rgb(175, 89, 39);
+    color: #CA3368;
 }
 
 ul h3::first-letter{
+    font-family: fantasy;
     font-size: x-large;
-    color: rgb(175, 89, 39);
+    color: white;
 }
 
 .box{
@@ -125,4 +128,9 @@ footer{
     background-color: black;
 }
 
-
+div img{
+    max-width: 200px;
+    max-height: 200px;
+    border-style: ridge;
+    border-radius: 20px;
+}
