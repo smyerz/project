@@ -5,7 +5,7 @@ header img{
 }
 
 body{
-    background-color: bisque;
+    background-color: #D890B0;
     font-family: 'Franklin Gothic Medium';
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -14,11 +14,13 @@ body{
 }
 
 h1{
+    font-family: fantasy;
     font-size: 3rem;
     text-align: center;
 }
 
 h2{
+    font-family: fantasy;
     font-size: 2rem;
 }
 
@@ -30,13 +32,16 @@ header > img{
 }
 
 nav ul{
+    font-family: fantasy;
     list-style: none;
     text-align: center;
     background-color: white;
     padding: 5px;
+    border-radius: 20px;
 }
 
 nav li{
+    font-family: fantasy;
     display: inline-flex;
     padding: 5px;
 }
@@ -46,7 +51,7 @@ nav li{
 }
 
 .subareas a.link:hover{
-    color: green;
+    color: #CA3368;
     
 }
 
@@ -81,7 +86,7 @@ div h4{
 
 div h4::first-letter{
      font-size: x-large;
-    color: rgb(175, 89, 39);
+    color: #CA3368;
 }
 
 footer{
@@ -90,7 +95,16 @@ footer{
     align-items: center;
 }
 
+footer img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 20px;
+    border-color: #CA3368;
+    
+}
+
 #box1{
     min-width: 0;
     background-color: black;
+
 }
