@@ -4,7 +4,7 @@ header img{
 }
 
 body{
-    background-color: bisque;
+    background-color: #D890B0;
     font-family: 'Franklin Gothic Medium';
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -33,6 +33,7 @@ nav ul{
     text-align: center;
     background-color: white;
     padding: 5px;
+    border-radius: 20px;
 }
 
 nav li{
@@ -45,7 +46,7 @@ nav li{
 }
 
 .subareas a.link:hover{
-    color: green;
+    color: #CA3368
     
 }
 
@@ -62,18 +63,23 @@ article{
 
 article h3::first-letter{
      font-size: x-large;
-    color: rgb(175, 89, 39);
+    color: white;
 }
 
 article h6::first-letter{
      font-size: x-large;
-    color: rgb(175, 89, 39);
+    color: white;
 }
 
 footer{
     display: inline-flex;
     justify-content: center;
     align-items: center;
+}
+div img{
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 #box1{
