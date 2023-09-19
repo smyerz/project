@@ -140,3 +140,16 @@ div img{
     border-style: ridge;
     border-radius: 20px;
 }
+
+/*likes counter*/
+.like-counter {
+    color: #000;
+    text-decoration: none;
+    margin-right: 5px;
+      
+
+  }
+  .liked {
+    font-weight: bold;
+  }
+  /*end*/

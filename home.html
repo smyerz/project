@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+   
+<head>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script><!-- Bootstrap Jquery JavaScripts  -->
+
+
         <!--client logo 4 links horizontal: home-products-info-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scal=">
         
         <title>shadowBoxArtsbymauGrins</title>
         <meta name="description" content="description">
-        <meta name="author" content="Hair Day">
+        <meta name="author" content="portfolio">
 
         <!--CSS files IMPORTANT: link stylesheet must be named the same as your css made for this page-->
         <link rel="stylesheet" href="home.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-    </head>
+    
+</head>
+
 <body>
     
     <header>
@@ -98,11 +107,26 @@
         <h3>Nobody seeks pain</h2><br>
     </p>
 </article>
-      
-    </main> 
-    <div id="container">
-       
-    </div>        
+<!--like counter-->
+
+
+        <h4>Post Content</h4>
+</div>
+<div class="row justify-content-center" >
+    <div class="form-group">
+    <label for="like">Button </label><a name="like" id="" class="button" href="#" role="button">like</a><!-- you can see the PHP function is written inside the tag with Like [ <?=$LikesCount?> ]-->
+    </div>
+</div>
+<div class="row justify-content-center">
+    <div class="form-group">
+        <label for="button">Button</label>
+        <input type="button" value="0">
+<!-- you can see the PHP function is written inside the tag VALUE with Like [ <?=$LikesCount?> ]-->
+    </div>
+</div>
+</body>
+</html>
+<!--end like counter-->
 </body>  
 
     <footer class="footer">
