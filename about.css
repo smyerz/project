@@ -66,8 +66,8 @@ article h3::first-letter{
     color: white;
 }
 
-article h6::first-letter{
-     font-size: x-large;
+h1::first-letter{
+     font-size: larger 200%;
     color: white;
 }
 

@@ -21,9 +21,7 @@ h1{
 h2{
     font-size: 2rem;
 }
-html h2:hover{
-    
-}
+
 html h3:hover{
     font-size: xx-large;
 }
@@ -82,10 +80,6 @@ img{
 ul img{
     min-width: 0;
     max-width: 500px;
-}
-
-ul img:hover{
-    
 }
 
 ul h3{
