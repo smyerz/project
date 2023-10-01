@@ -5,7 +5,7 @@ header img{
 }
 
 body{
-    background-color: #D890B0;
+    background-color: pink;
     font-family: 'fantasy';
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -34,11 +34,11 @@ header > img{
 }
 
 .subareas a.link{
-    color: black;
+    color: rgb(151, 179, 226);
 }
 
 .subareas a.link:hover{
-    color: #CA3368;
+    color: rgb(151, 179, 226);
     
 }
 
@@ -94,7 +94,7 @@ ul h4{
 
 article h5::first-letter{
     font-size: x-large;
-    color: #CA3368;
+    color: rgb(151, 179, 226);
 }
 
 ul h3::first-letter{
@@ -103,18 +103,34 @@ ul h3::first-letter{
     color: white;
 }
 
-.box{
+.links{
+    color: white;
+    background-color: rgb(151, 179, 226);
     text-align: left;
-    display: table;
+    display: inline-block;
     min-width: 0;
     max-width: 500px;
-    border: solid 2px black;
+    border: solid 2px pink;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
     transition: 0.2s ease;
     box-sizing: border-box;
-    white-space: pre-wrap;
+    
 }
+
+.links.close {
+    color: pink;
+    margin-top: 21px;
+    width: 100%;
+    padding-top: 14px;
+    text-align: center;
+}
+
+.links::after{
+  color: pink;
+}
+   
+
 
 footer{
     display: inline-flex;
