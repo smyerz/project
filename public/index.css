@@ -18,12 +18,22 @@ h1{
     text-align: center;
 }
 
+div h1:first-letter{
+    font-size: 150%;
+    color: white;
+}
+
 h2{
     font-size: 2rem;
 }
 
 html h3:hover{
     font-size: xx-large;
+}
+
+li h4:first-letter{
+    font-size: x-large;
+    color: rgb(151, 179, 226);
 }
 
 header > img{
@@ -134,13 +144,14 @@ ul h3::first-letter{
 
 footer{
     display: inline-flex;
+    
     justify-content: center;
     align-items: center;
 }
 
 #box1{
     min-width: 0;
-    max-width: 700px;
+    max-width: 50px 50px;
     background-color: black;
 }
 
