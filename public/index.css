@@ -64,6 +64,9 @@ nav li{
     display: inline-flex;
     padding: 5px;
 }
+body{
+    background-color: pink;
+}
 
 article{
     flex: 1;
