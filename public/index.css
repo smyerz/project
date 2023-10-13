@@ -158,6 +158,15 @@ footer{
     background-color: black;
 }
 
+#aSide {
+    model-viewer {
+        height: 600px;
+        width: 600px;
+        position: absolute;
+        border: none;
+    }
+}
+
 div img{
     max-width: 200px;
     max-height: 200px;
