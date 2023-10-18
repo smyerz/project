@@ -88,9 +88,16 @@
        
         </main>  
         
-        <div id="aSide">
-            <model-viewer src="public/goblin.glb" alt="alien goblin 3D object" />
-        </div>
+        <a-scene>
+            <!-- Preload with a-assets -->
+            <a-assets>
+              <a-asset-item gltf-model id="aSide" src="public/goblin.glb"></a-asset-item>
+              
+            </a-assets>
+          
+            <!-- add the model to the scene -->
+            <a-entity gltf-model="#aSide"></a-entity>
+        </a-scene>
 
         <article>
             <p>
