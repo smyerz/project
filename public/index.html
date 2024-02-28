@@ -1,122 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-   
-    <head>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script><!-- Bootstrap Jquery JavaScripts  -->
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-        <!--client logo 4 links horizontal: home-products-info-->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scal=">
-        
-        <title>sassycoder</title>
-        <meta name="description" content="description">
-        <meta name="author" content="portfolio">
-
-        <!--CSS files IMPORTANT: link stylesheet must be named the same as your css made for this page-->
-        <link rel="stylesheet" href="index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        
-
-
-    </head>
-    
-    <header>
-        <img id="logo" src="GFlogo.png" alt="">      
-    </header> 
-
-    <nav class="subareas">
-        <ul>
-            <li>
-                <a class="link" href="index.html">Home</a>
-            </li>
-            <li>
-                <a class="link" href="https://pin.it/1GzvWV1" target="blank">Projects</a>
-            </li>
-            <li>
-                <a class="link" href="https://linktr.ee/mrsmyerzzz?utm_source=linktree_profile_share&ltsid=4cd0d07a-b76b-405f-b1f2-7328b60676ea" target="blank">Links</a>
-            </li>
-            <li>
-                <a class="link" href="https://forms.gle/gMec5NHY7Wn3nCjT9" target="blank">Commissions!</a>
-            </li>
-        </ul>
-    </nav>   
-    
-    <body> 
-        <main>
-    <!--large promotional banner with 3 columns with text and images below it-->
-     <!--grid based flex box, CSS selectors and effects/animations-->
-            <section>
-                <article>
-                    <h1>
-                 <!--heading-->
-                        <p>SassyCoder.com</p>
-                    </h1>
-                    <img id="" src="" alt="">
-                    <p><h5></h5>
-                </article>
-            </section>
-
-            <div id="container">
-                <ul>
-                    <div>
-                        <li>
-                            <img src="images/me2.png" alt="Me">
-                            <p><h3>My Experience</h3></p>
-                            <p><h4><span class="links">I can code!</span></h4></p>
-                        </li>
-                    </div>
-                    <div>
-                        <li>
-                            <img src="images/myStyle1.png" alt="myStyle">
-                            <p><h3>MyStyle</h3></p>
-                             <p><h4><span class="links"><a href="https://pin.it/1mfHsDJ" target="blank"> See My  illustrations on Pinterest!</span></h4></p>
-                        </li>
-                    </div>
-                </ul>
-            </div>
-
-
-             <section>
-                <iframe class="iframe" title="Open identification process"
-                src="" allow="camera; microphone" frameBorder="1"
-                width="560" height="315" ></iframe>
-            </section>    
-       
-        </main>  
-        
-        <a-scene>
-            <!-- Preload with a-assets -->
-            <a-assets>
-              <a-asset-item gltf-model id="aSide" src="public/goblin.glb"></a-asset-item>
-              
-            </a-assets>
-          
-            <!-- add the model to the scene -->
-            <a-entity gltf-model="#aSide"></a-entity>
-        </a-scene>
-
-        <article>
-            <p>
-            <h2>Lorem Ipsum</h2>
-            <h3>Nobody seeks pain</h2><br>
-            </p>
-        </article>
-    </body>
-
-
-    <footer class="footer">
-        <!--2 columns: first with small logo on the left and second with copyright information on the right-->
-        <div>
-            <img id="box1" src="">
-        </div>
-
-        <div>
-            <h4>shadowBoxArts by mauGrins</h4>
-        </div>
-
-    </footer>
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>
