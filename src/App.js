@@ -32,10 +32,7 @@ const Content = () => {
   return (
     <div>
       <Paragraph>
-        We are a pizza loving family. And for years, I searched and searched and
-        searched for the perfect pizza dough recipe. I tried dozens, or more.
-        And while some were good, none of them were that recipe that would
-        make me stop trying all of the others.
+        Im an aspiring programmer and a military spouse. I like all the arts! My favorites are knit, crochet, digital drawing, digital asset making, sculpture, poetry and story telling. I am studying hard to learn to make games in Unreal Engine and apps of course!
       </Paragraph>
     </div>
   );
@@ -44,7 +41,7 @@ const Content = () => {
 const Header = () => {
   return (
     <header>
-      <Title>Little Lemon 🍕</Title>
+      <Title>SassyCoder.com 🫳🏽</Title>
       <Switch />
     </header>
   );
@@ -53,7 +50,7 @@ const Header = () => {
 const Page = () => {
   return (
     <div className="Page">
-      <Title>When it comes to dough</Title>
+      <Title>About</Title>
       <Content />
     </div>
   );
