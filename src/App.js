@@ -33,8 +33,20 @@ const Content = () => {
     <div>
       <Paragraph>
         Im an aspiring programmer and a military spouse. I like all the arts! My favorites are knit, crochet, digital drawing, digital asset making, sculpture, poetry and story telling. I am studying hard to learn to make games in Unreal Engine and apps of course!
+        <div>
+        <a href src="https://spotifyanchor-web.app.link/e/NLICxD9sgIb">Podcast (UP)</a>
+        </div>
       </Paragraph>
     </div>
+  );
+};
+
+const Head = () => {
+  return (
+    <head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8340816845127688"
+     crossorigin="anonymous"></script>
+    </head>
   );
 };
 
@@ -51,6 +63,7 @@ const Page = () => {
   return (
     <div className="Page">
       <Title>About</Title>
+      
       <Content />
     </div>
   );
@@ -65,6 +78,7 @@ function App() {
         backgroundColor: theme === "light" ? "white" : "black",
       }}
     >
+      <Head/>
       <Header />
       <Page />
     </div>
